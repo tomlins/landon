@@ -17,7 +17,7 @@ galleryImagesData.forEach(function(galleryImage) {
     className = "no_class";
 
   var params = {
-    TableName: "GalleryImages",
+    TableName: "WelcomeImagesLink",
     Item: {
       "src": galleryImage.src,
       "alt": galleryImage.alt,
