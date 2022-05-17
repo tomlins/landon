@@ -13,7 +13,7 @@ var accessibilitiesData =
 
 accessibilitiesData.forEach(function(accessibililty) {
   var params = {
-    TableName: "Accessibilities",
+    TableName: "AccessibilityFeatures",
     Item: {
       "name": accessibililty.name
     }
